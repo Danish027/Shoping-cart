@@ -1,0 +1,76 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  width: 200px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 30px;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 20px 20px 40px 20px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+input {
+}
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-sizing: 10px 10px 10px black;
+}
+.btn-add {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.input-btn {
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  border-radius: 2px;
+}
